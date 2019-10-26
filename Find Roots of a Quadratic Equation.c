@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
 int main()
 {
     double a, b, c, discriminant, root1, root2, realPart, imaginaryPart;
