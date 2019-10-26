@@ -1,15 +1,18 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
+#include <conio.h>
 int convertBinaryToDecimal(long long n);
 int main()
 {
-    long long n;
+    long long int n;
     printf("Enter a binary number: ");
     scanf("%lld", &n);
     printf("%lld in binary = %d in decimal", n, convertBinaryToDecimal(n));
+    getch();
     return 0;
 }
-int convertBinaryToDecimal(long long n)
+int convertBinaryToDecimal(long long int n)
 {
     int decimalNumber = 0, i = 0, remainder;
     while (n!=0)
