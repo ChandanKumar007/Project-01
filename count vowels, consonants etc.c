@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
 int main()
 {
     char line[150];
-    int i, vowels, consonants, digits, spaces;
+    long long int i, vowels, consonants, digits, spaces;
     vowels =  consonants = digits = spaces = 0;
     printf("Enter a line of string: ");
     scanf("%[^\n]", line);
@@ -32,5 +34,6 @@ int main()
     printf("\nConsonants: %d",consonants);
     printf("\nDigits: %d",digits);
     printf("\nWhite spaces: %d", spaces);
+    getch();
     return 0;
 }
