@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
 int main()
 {
     double number;
@@ -13,5 +15,6 @@ int main()
     }
     else
         printf("You entered a positive number.");
+    getch();
     return 0;
 }
